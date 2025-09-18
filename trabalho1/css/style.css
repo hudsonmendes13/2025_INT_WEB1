@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+header{
+    padding: 2rem;
+    background-color: #000000;
+    color: rgb(240, 255, 242);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+body{
+    background-color:#212b31;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+h3{
+    font-size: xx-large;
+}
+
+h4{
+    font-size: x-large;
+    color: #353535;
+}
+
+a{
+    font-size: 18px;
+}
+.fotos{
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+}
+
+.apresentacao{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.itens{
+    background-color: antiquewhite;
+    color: black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.itens-container{
+    display: flex;
+    -ms-flex-align: center;
+    flex-direction: row-reverse;
+    gap: 1rem;
+}
+
+.itens-container-contraria{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.itens-container-coluna{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+footer{
+    padding: 2rem;
+    background-color: #000000;
+    color: rgb(240, 255, 242);
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th:first-child, td:first-child {
+    width: 100px;
+}
+th:not(:first-child), td:not(:first-child) {
+    width: calc((100% - 100px) / 5);
+}
